@@ -35,7 +35,7 @@ const playRound = (humanChoice, computerChoice) => {
     console.log("You lose! Paper beats Rock");
     computerScore += 1;
   } else if (humanChoice == "rock" && computerChoice == "scissors") {
-    console.log("You win! Rock beats Paper");
+    console.log("You win! Rock beats Scissors");
     humanScore += 1;
   } else if (humanChoice == "paper" && computerChoice == "scissors") {
     console.log("You lose! Scissors beats Paper");
