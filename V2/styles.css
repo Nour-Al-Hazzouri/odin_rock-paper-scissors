@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    margin-top: 200px;
+    line-height: 20px;
+}
+.retry {
+    display: none;
+    margin: 0 auto;
+}
